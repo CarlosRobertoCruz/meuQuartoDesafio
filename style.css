@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* cores e adicionais */
+:root{
+    --primeira: #CED4DA;
+    --segunda: #F6511D;
+    --terceira: #6C757D;
+    --quarta: #8458FF;
+    --quinta: #FFC107;
+    --quinta1: #DC3545;
+    --sexta: #ABB5BE;
+    --setima: #DEE2E6;
+    --oitava: #68717A;
+    --branco: #fff;
+    --preto: #152536;
+    --pretoTrue: 000;
+}
+
+::placeholder{
+    font-size: 16px;
+    color: var(--sexta);
+}
+
+.lugar::placeholder{
+    padding: 0px 0px 0px 20px;
+}
+
+.data::placeholder{
+    padding: 0px 0px 0px 10px;
+}
+
+textarea::placeholder{
+    padding: 20px 0px 0px 20px;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: #F8F9FA;
+    height: 48px;
+    padding: 0px 0px 0px 20px;
+    position: fixed;
+    width: 100%;
+}
+
+h1{
+    font-size: 25px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.section1{
+    max-height: 100%;
+}
+
+h2{
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.lugar{
+    width: 600px;
+    height: 38px;
+    border: 2px solid var(--primeira);
+    border-radius: 5px;
+    margin-bottom: 31px;
+    margin-bottom: 39px;
+}
+
+.data{
+    width: 293px;
+    height: 38px;
+    border: 2px solid var(--primeira);
+    border-radius: 5px;
+}
+
+textarea{
+    width: 555px;
+    height: 161px;
+    border: 2px solid var(--primeira);
+    border-radius: 5px;
+    resize: none;
+}
+
+.cadastrar{
+    background-color: var(--quarta);
+    color: var(--branco);
+    width: 109px;
+    height: 39px;
+    border-radius: 5px;
+    border: 1px solid var(--quarta);
+    font-size: 16px;
+    margin-bottom: 70px;
+}
+
+.box{
+    width: 16px;
+    height: 16px;
+    border-radius: 5px;
+    
+}
+
+.box:hover input{
+    background-color: var(--terceira);
+}
+
+.cadastrar:hover{
+    background-color: var(--branco);
+    color: var(--quarta);
+}
+
+.syncTurH2{
+    font-size: 40px;
+    color: var(--branco);
+}
+
+/* posicionamento */
+.section1{
+    margin-top: 143px;
+}
+
+.primeiraInfo{
+    margin-right: 39px;
+}
+
+.basePacote{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pacote{
+    margin-bottom: 26px;
+}
+
+.descricao{
+    margin-bottom: 27px;
+}
+
+.viagem{
+    margin-bottom: 31px;
+}
+
+.divButton{
+    display: flex;
+    justify-content: center;
+}
+
+.cadastrar{
+    margin-top: 68px;
+}
+
+/* Footer */
+
+footer{
+    background-color: var(--segunda);
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infos{
+    display: flex;
+}
+
+.barraBranco{
+    background-color: var(--branco);
+    width: 2px;
+    height: 210px;
+    margin-top: 10px;
+}
+
+.divFooter{
+    width: 140px;
+}
+
+.barra{
+    display: flex;
+    justify-content: center;
+}
+
+.infoFooter{
+    font-size: 18px;
+    color: var(--branco);
+    margin-top: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Parte do TS */
+.cards{
+    max-width: 1189px;
+    max-height: 265px;
+    border: 1px solid var(--setima);
+    margin-bottom: 24px;
+    padding: 24px 0px 37px 63px;
+}
+
+h3{
+    color: var(--preto);
+    font-size: 23px;
+    margin-bottom: 24px;
+}
+
+h4{
+    color: var(--pretoTrue);
+    font-size: 16px;
+    color: var(--terceira);
+    margin-bottom: 10px;
+}
+
+.pacoteData{
+    font-size: 13px;
+    color: var(--pretoTrue);
+    margin-bottom: 37px;
+}
+
+.editar{
+    background-color: var(--quinta);
+    width: 85px;
+    height: 39px;
+    color: var(--branco);
+    border: 2px solid var(--quinta);
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 18px;
+}
+
+.excluir{
+    background-color: var(--quinta1);
+    color: var(--branco);
+    width: 85px;
+    height: 39px;
+    border: 2px solid var(--quinta1);
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.editarExcluir{
+    display: flex;
+}
+
+.descricaoDoP{
+    margin-bottom: 10px;
+    color: var(--oitava)
+}
+
+.editar2{
+    background-color: var(--quinta);
+    width: 85px;
+    height: 39px;
+    color: var(--branco);
+    border: 2px solid var(--quinta);
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 18px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

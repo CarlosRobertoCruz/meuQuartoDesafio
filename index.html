@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SyncTur</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>SyncTur</h1>
+    </header>
+
+    <main>
+        <section class="section1">
+            <div id="h2"></div>
+            <div class="infos">
+                <div class="primeiraInfo">
+                    <h2 class="pacote">Pacote</h2>
+                    <input type="text" placeholder="Digite nome completo" class="lugar" id="lugar">
+                    <div class="basePacote">
+                        <div class="base1">
+                            <h2 class="status">Status de Pacote</h2>
+                            <input name="box" id="box" type="checkbox" class="box">
+                            <label for="ativo">Ativo</label><br>
+                            <input name="box" id="box" type="checkbox" class="box">
+                            <label for="inativo">Inativo</label> 
+                        </div>
+                        <div class="base1">                     
+                            <h2 class="viagem">Data de Viagem</h2>
+                            <input type="text" placeholder="Data" id="data" class="data">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="segundaInfo">
+                    <h2 class="descricao">Descrição</h2>
+                    <textarea name="" id="texto" maxlength="135" placeholder="Escreva sua mensagem aqui"></textarea>
+                </div>
+            </div>
+
+            <div class="divButton" id="divCadastrar">
+                <button id="buttonCadastrar" class="cadastrar">Cadastrar</button>
+            </div>
+            
+            <section id="sectionsCards">
+            
+            </section>
+
+        </section>
+        
+        
+    </main>
+
+    <footer>
+        <div class="divFooter">
+        <h2 class="syncTurH2">SyncTur</h2>
+        </div>
+        <div  class="divFooter barra">
+            <div class="barraBranco"></div>
+        </div>
+        
+        <div>
+            <p class="infoFooter">Company Inc., 8901 Marmora Road, Glasgow, D04 89GR</p>
+            <p class="infoFooter">Call us now toll free: (800)2345-6789</p>
+            <p class="infoFooter">Customer support: support@demolink.org</p>
+            <p class="infoFooter"> Skype: sample-username</p>
+        </div>
+    </footer>
+
+</body>
+<script src="script.js"></script>
+</html>
+
+<!-- creatElement -->
